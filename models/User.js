@@ -16,6 +16,7 @@ const UserSchema = new Schema({
         required: [true, 'User email address required'],
         unique: true,
         validate: {
+            //stackoverflow  Mongoose validate email syntax /https://stackoverflow.com/questions/18022365/mongoose-validate-email-syntax
             validator: function (v) {
                 return /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(v);
             },
@@ -38,6 +39,7 @@ const UserSchema = new Schema({
     id: false
 });
 
+//Create a virtual called friendCount that retrieves the length of the user's friends array field on query.
 UserSchema.virtual('friendCount').get(function () {
     return this.friends.length;
 });

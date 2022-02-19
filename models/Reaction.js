@@ -3,7 +3,7 @@ const {
     Schema,
     Types
 } = require('mongoose');
-const moment = require('moment');
+
 
 const reactionSchema = new Schema({
     //set id to avoid mix up with parent thought id
@@ -23,7 +23,7 @@ const reactionSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now,
-        get: createdAtVal => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm:a')
+        get: createdAtVal => dateFormat(createdAtVal)
     }
 }, {
     toJSON: {

@@ -30,7 +30,7 @@ const userController = {
       });
   },
 
-  // createUser
+  // create User
   createUser({ body }, res) {
     User.create(body)
       .then((dbUserData) => res.json(dbUserData))
@@ -63,7 +63,7 @@ const userController = {
             .json({ message: "No user found with this id!" });
         }
 
-       //Bonus 
+       
       })
       .then(() => {
         res.json({ message: "user has been deleted." });

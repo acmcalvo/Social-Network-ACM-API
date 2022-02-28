@@ -22,10 +22,10 @@ https://user-images.githubusercontent.com/91921941/155906743-4d908e02-d87d-4fe0-
   ```
   https://drive.google.com/file/d/1lm_k-XyVGtt5-U430uv2B3Yf47PH3W_q/view?usp=sharing
 ```
- ## USage
-
-
-  * Downloaded the code open the zpped folder: <br/>
+ ## Usage
+ 
+  * Downloaded the code  https://github.com/acmcalvo/Social-Network-ACM-API.git <br/>
+  * open the zipped folder: <br/>
     ```
     $ Run npm install, you need to create .env file to connect to MongoDB. Went you haves this done run npm start to start the application:
     ```

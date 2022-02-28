@@ -1,3 +1,5 @@
+<img src='https://img.shields.io/github/license/acmcalvo/README-Generator' >
+
 # Social Network-ACM
 
   ## Table of Contents
@@ -5,6 +7,7 @@
   * [Presentation](#presentation)
   * [Usage](#Usage)
   * [Repository](#repository)
+  * [License](#license)
 
 
  ## [Description
@@ -31,10 +34,17 @@ https://user-images.githubusercontent.com/91921941/155906743-4d908e02-d87d-4fe0-
 
 
 
-  * [Repository](#repository)
+ ## Repository
+  https://github.com/acmcalvo/Social-Network-ACM-API.git
 
 
-Added the actual distributed Github link and Html and link to the video recorder:
+  ## License 
+  This project is license under MIT License
+
+ 
+  ## Questions
+  If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com. 
+  You can view more of my projects at https://github.com/acmcalvo.
 
 
 
